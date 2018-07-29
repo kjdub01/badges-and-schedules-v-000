@@ -12,6 +12,8 @@ def assign_rooms(names)
   
   name.each_with_index(1) do |name, room_assignment|
     rooms << room_assignment = "Hello, #{name}! You'll be in romm #{room_assignment}!"
+  end
+  rooms
 end
 
 def printer
