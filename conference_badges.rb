@@ -6,7 +6,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees.collect("Hello, my name is #{name}.")
+  badges = []
+  attendees.each
 end
 
 def assign_rooms(name)
