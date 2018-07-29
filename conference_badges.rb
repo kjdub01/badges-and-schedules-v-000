@@ -18,8 +18,8 @@ rooms = []
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees) 
-  puts badges
-end
+  batch_badge_creator(attendees).each do |badges|
+    puts badges
+  end
   
 end
