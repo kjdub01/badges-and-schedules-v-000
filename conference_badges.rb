@@ -17,6 +17,6 @@ rooms = []
   
 end
 
-def printer
+def printer(attendees)
   
 end
