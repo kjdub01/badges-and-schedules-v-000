@@ -10,7 +10,7 @@ end
 def assign_rooms(names)
   rooms = []
   
-  
+  name.each_with_index(1) do {
 end
 
 def printer
